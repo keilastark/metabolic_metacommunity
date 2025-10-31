@@ -1,6 +1,6 @@
 #Alpha x disp simulations
 
-#cd("/Users/keilastark/Documents/metabolic_metacommunity/julia_workflow/data/landscape_data")
+#cd("~/Documents/metabolic_metacommunity/julia_workflow/data/landscape_data")
 
 #script_dir = dirname(@__FILE__)
 
