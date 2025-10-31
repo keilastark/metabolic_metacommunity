@@ -1,5 +1,3 @@
-source("./code/model_functions.R")
-
 reps <- 30
 for(r in 1:reps){
 time_steps <- 2000
