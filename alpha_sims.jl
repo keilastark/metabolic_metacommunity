@@ -1,6 +1,6 @@
 #Alpha simulations
 
-#cd("/Users/keilastark/Documents/metabolic_metacommunity/julia_workflow/landscape_data")
+#cd("~/julia_workflow/landscape_data")
 
 
 #script_dir = dirname(@__FILE__)
