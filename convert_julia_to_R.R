@@ -1,5 +1,5 @@
 library(data.table)
-setwd("~/metabolic_metacommunity/julia_workflow")
+setwd("~/julia_workflow")
 
 reps <- 30
 
