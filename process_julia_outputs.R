@@ -8,7 +8,6 @@ alpha.results.df <- data.frame()
 alpha.disp.results.df <- data.frame()
 asymmetry.results.df2 <- data.frame()
 asymmetry.quick.results.df<-data.frame()
-#dispersal outputs
 
 for (warming_level in c("0.0", "2.5", "5.0", "7.5", "10.0")) {
 for(i in 1:reps) {
@@ -62,8 +61,6 @@ for(i in 1:reps) {
   }
 }
 save(disp.results.df, file = "./final_dispersal_outputs.RData")
-
-#alpha results
 
 alpha.results.df <- data.frame()
 
@@ -127,8 +124,6 @@ for (level in c("0.0", "2.5", "5.0", "7.5", "10.0")) {
 
 save(alpha.results.df, file = "./final_alpha_outputs.RData")
 
-###
-
 for (level in c("0.0", "2.5", "5.0", "7.5", "10.0")) {
   for(i in 1:reps) {
     print(i)
@@ -187,8 +182,6 @@ for (level in c("0.0", "2.5", "5.0", "7.5", "10.0")) {
 }
 
 save(alpha.disp.results.df, file = "./final_alpha_disp_outputs.RData")
-
-
 
 
 for (level in c("0.0", "2.5", "5.0", "7.5", "10.0")) {
